@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Sans:ital,wght@0,300;1,300;1,500&family=Oswald&family=Pacifico&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.A1{
+    background: url('https://media.istockphoto.com/id/1300116537/vector/south-indian-breakfast-dish-dosa-and-vada-with-sambar-and-chutney-on-banana-leaf.jpg?s=170667a&w=0&k=20&c=kMoMtJuu8_k1Fl38I9GQ7bL_WAbK2w2AkcftTfdN-EQ=');
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    margin-right: 200px;
+    width: 100%;
+
+}
+
+nav .logo{
+    margin-left: 30px;
+    padding-top: 20px;
+    width: 10%;
+    height: 130px;
+    border-radius: 50%;
+}
+
+nav ul{
+    width: 100%;
+}
+
+nav ul li{
+
+    display: inline;
+    list-style: none;
+    margin: 20px 60px;
+    margin-left: 100px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: firebrick;
+}
+
+nav ul li a:hover{
+    color: green;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+.caption h2{
+    text-align: center;
+    margin-left: 1200px;
+    margin-top: 200px;
+    color: #CD5C5C;
+    font-family: 'Pacifico', cursive;
+}
+
+.about{
+     background-color: rgb(237, 145, 80,0.5); 
+    height:600px ;
+    width: 100%;
+}
+
+.about .A2{
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    /* padding-top: 70px; */
+}
+
+.A2 H1{
+    font-size: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+  .B2{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%px;
+    height: 70px;
+    background-color: darksalmon;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+
+ .B3{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%px;
+    height: 70px;
+    background-color: darksalmon;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+
+ }
+
+ .B4{
+
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%px;
+    height:115px;
+    background-color: darksalmon;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+
+ }
+
+ .menu{
+    /* margin-left: 20px; */
+    background-color: chocolate;
+
+ }
+
+ .menu h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: darkslategray;
+}
+ 
+
+ .parent{
+    width: 100%;
+    height: 400px;
+   background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ .child{
+    width: 300px;
+    height: 300px;
+    /* background-color:violet ; */
+    /* border: 2px solid; */
+    margin-left: 30px;
+    text-align: center;
+
+ }
+
+ img{
+    width: 100%;
+    height: 200px;
+ }
+
+
+ .contact{
+    background-color: rgb(237, 145, 80);
+    padding-top: 400px;
+    
+ }
+
+ .A4 .heading h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    
+ }
+
+ .icon-div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ .icon{
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+ 
+ }
+
+ .icon i{
+    color: black;
+ }
+
+ .icon:hover{  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    color: rgb(252, 251, 251);}
+
+
+    footer{
+        text-align: center;
+         margin-top:50px;
+         padding-bottom: 20px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+
+  @media only screen and (max-width: 414px){
+
+    .B2{
+        width: 300px;
+        height: 150px;
+        font-size: small;
+    }
+
+    .B3{
+        width: 300px;
+        height: 80px;
+        font-size: small;
+    }
+
+    .A1{
+        height: 400px;
+    }
+
+
+    .B4{
+        width: 300px;
+        height: 160px;
+        font-size: small;
+
+    }
+
+    .about{
+        height: 700px;
+    }
+
+    #menu .parent{
+        display: grid;
+        height: 1300px;
+        width: 94%;
+    }
+
+    .contact{
+        padding-top: 25px;
+    }
+
+    nav{
+        display: grid;
+        width: 500px;
+    }
+
+    nav .logo{
+        width:130px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+
+    ul{
+        height: 100px;
+        padding-top: 15px;
+    }
+
+    nav ul li{
+        width: 10px;
+        height: 25px;
+        display: flex;
+        margin: 20px 9px;
+        padding-left: 0px;
+        padding-bottom: 1px;
+        
+    }
+
+    nav ul li a{
+        font-size: 10px;  
+        padding: 1px;
+    }
+
+    .caption h2{
+        text-align: center;
+        margin-left: 55%;
+        margin-top: 10%;
+        font-size: small;
+        color: #CD5C5C;
+        font-family: 'Pacifico', cursive;
+    }
+
+   
+    button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 3px 50px 3px 8px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        width: 30px;
+
+      }
+  }
+    
+ 
